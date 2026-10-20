@@ -1,0 +1,7 @@
+// File build tingkat proyek (root).
+plugins {
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
+    // Plugin Google Services untuk Firebase Cloud Messaging (push notification)
+    id("com.google.gms.google-services") version "4.4.2" apply false
+}
